@@ -106,6 +106,7 @@ class Part implements \RecursiveIterator
 
     public function getCharset()
     {
+        return 'gbk';
         return $this->parameters->get('charset');
     }
 
